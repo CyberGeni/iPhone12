@@ -1,0 +1,66 @@
+/* general reformatting of default styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* main phone */
+main {
+    position: relative;
+    height: 520px;
+    width: 240px;
+    border: 10px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 0px 0 1px #3a557c, 0px 0px 0 2px #758dad, 0px 0px 0 3px #3a557c;
+    /* placeholder background */
+    background-color: #0eb8a9;
+}
+.notch {
+    position: relative;
+
+    height: 20px;
+    width: 120px;
+    background-color: black;
+    margin: auto;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.speaker-thingy {
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background-color: #121416;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 6px;
+    border-radius: 4px;
+}
+.camera {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #060d31;
+    background-color: #1b2c2f;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 4px;
+    right: -52px;
+    left: 0;
+}
+.right-buttons {
+    position: relative;
+}
+.unknown-button {
+    position: absolute;
+}
