@@ -26,7 +26,6 @@ main {
 }
 .notch {
     position: relative;
-
     height: 20px;
     width: 120px;
     background-color: black;
@@ -58,9 +57,43 @@ main {
     right: -52px;
     left: 0;
 }
-.right-buttons {
+.right-buttons, .left-buttons {
     position: relative;
 }
 .unknown-button {
     position: absolute;
+    z-index: -10;
+    height: 64px;
+    width: 5px;
+    background-image: linear-gradient(to right, #294d81, #698dbcea, #1b3f70);
+    border-radius: 36px;
+    border: 0;
+    right: -15px;
+    top: 120px;
+}
+.power-button {
+    position: absolute;
+    z-index: -10;
+    height: 32px;
+    width: 5px;
+    background-image: linear-gradient(to right, #294d81, #698dbcea, #1b3f70);
+    border-radius: 36px;
+    border: 0;
+    left: -15px;
+    top: 60px;
+}
+.volume-button {
+    position: absolute;
+    z-index: -10;
+    height: 42px;
+    width: 5px;
+    background-image: linear-gradient(to right, #294d81, #698dbcea, #1b3f70);
+    border-radius: 36px;
+    border: 0;
+    left: -15px;
+    top: 110px;
+}
+.volume-button:nth-child(2) {
+    left: -15px;
+    top: 160px;
 }
