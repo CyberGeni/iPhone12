@@ -108,7 +108,6 @@ main {
     justify-content: center;
     font-size: 2.5em;
     position: absolute;
-    z-index: 100;
     top: 157px;
     left: 36px;
     margin: auto;
