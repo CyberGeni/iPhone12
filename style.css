@@ -16,13 +16,12 @@ body {
 /* main phone */
 main {
     position: relative;
+    z-index: -10000;
     height: 520px;
     width: 240px;
     border: 10px solid black;
     border-radius: 40px;
     box-shadow: 0px 0px 0 1px #3a557c, 0px 0px 0 2px #758dad, 0px 0px 0 3px #3a557c;
-    /* placeholder background */
-    background-color: #0eb8a9;
 }
 .notch {
     position: relative;
@@ -74,7 +73,7 @@ main {
 .power-button {
     position: absolute;
     z-index: -10;
-    height: 32px;
+    height: 26px;
     width: 5px;
     background-image: linear-gradient(to right, #294d81, #698dbcea, #1b3f70);
     border-radius: 36px;
@@ -97,3 +96,49 @@ main {
     left: -15px;
     top: 160px;
 }
+
+/* backgrounds */
+.background {
+    position: relative;
+}
+.small {
+    position: absolute;
+    z-index: 100;
+    top: 150px;
+    left: 39px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(225deg,#b7efb3, #073a6d) ;
+}
+/* .medium {
+    position: absolute;
+    z-index: 80;
+    top: 105px;
+    left: -40px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-image: radial-gradient(#073a6d, #b7efb3) ;
+}
+.big {
+    position: absolute;
+    z-index: -60;
+    top: 150px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(225deg,#b7efb3, #073a6d) ;
+}
+.large {
+    position: absolute;
+    z-index: -40;
+    top: 150px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(225deg,#b7efb3, #073a6d) ;
+} */
