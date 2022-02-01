@@ -43,7 +43,7 @@ main {
     right: 0;
     left: 0;
     margin: auto;
-    margin-top: 6px;
+    top: 6px;
     border-radius: 4px;
 }
 .camera {
@@ -97,6 +97,7 @@ main {
     left: -15px;
     top: 160px;
 }
+
 
 /* background gradients */
 .background {
